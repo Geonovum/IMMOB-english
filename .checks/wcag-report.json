@@ -1,6 +1,512 @@
 [
   {
     "url": "http://localhost:8080/snapshot.html",
+    "id": "area-alt",
+    "impact": "critical",
+    "description": "Ensure <area> elements of image maps have alternative text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/area-alt?application=webdriverjs",
+    "nodes": [
+      {
+        "target": [
+          "area[coords=\"3186,1014,3309,1103\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"3186,1014,3309,1103\" href=\"#global_class_SRTI_Typegebeurtenisoftoestand\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"634,947,757,1029\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"634,947,757,1029\" href=\"#global_class_SRTI_Typegebeurtenisoftoestand\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"683,1037,903,1122\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"683,1037,903,1122\" href=\"#global_class_SRTI_Typegebeurtenisoftoestand\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"49,59,172,198\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"49,59,172,198\" href=\"#global_class_RTTI_Regelkarakter\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"989,440,1136,522\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"989,440,1136,522\" href=\"#global_class_RTTI_TypeWegwerkzaamheid\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"989,235,1112,317\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"989,235,1112,317\" href=\"#global_class_RTTI_Duurtype\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"989,346,1246,417\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"989,346,1246,417\" href=\"#global_class_RTTI_PlanningstypeWegwerkzaamheden\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"14,175,152,314\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"14,175,152,314\" href=\"#global_class_RTTI_TypeVerzorgingsplaats\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"167,175,324,314\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"167,175,324,314\" href=\"#global_class_RTTI_ServicesVerzorgingsplaats\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"26,354,149,476\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"26,354,149,476\" href=\"#global_class_RTTI_TypeTolstation\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"979,407,1134,564\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"979,407,1134,564\" href=\"#global_class_RTTI_Betaalmethode\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"584,422,752,579\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"584,422,752,579\" href=\"#global_class_RTTI_TypeGas\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"711,413,834,577\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"711,413,834,577\" href=\"#global_class_RTTI_TypeBrandstof\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"14,231,137,370\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"14,231,137,370\" href=\"#global_class_RTTI_Regelkarakter\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"399,231,578,370\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"399,231,578,370\" href=\"#global_class_RTTI_TypeVestiger\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"309,537,432,641\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"309,537,432,641\" href=\"#global_class_RTTI_Tunnelklasse\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"292,567,415,671\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"292,567,415,671\" href=\"#global_class_RTTI_Brugklasse\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"320,414,476,496\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"320,414,476,496\" href=\"#global_class_RTTI_TypeVerkeersbord\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"1212,30,1335,170\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"1212,30,1335,170\" href=\"#global_class_RTTI_Regelkarakter\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"1382,202,1561,342\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"1382,202,1561,342\" href=\"#global_class_RTTI_TypeVestiger\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"14,554,137,871\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"14,554,137,871\" href=\"#global_class_RTTI_Voertuigklasse\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"599,753,738,928\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"599,753,738,928\" href=\"#global_class_RTTI_Weersomstandigheden\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"325,170,448,327\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"325,170,448,327\" href=\"#global_class_NWB_Rijrichting\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"450,753,573,892\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"450,753,573,892\" href=\"#global_class_RTTI_TypeSnelheid\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"14,429,160,586\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"14,429,160,586\" href=\"#global_class_RTTI_TypeAfleveringsregeling\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"350,338,473,655\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"350,338,473,655\" href=\"#global_class_RTTI_Voertuigklasse\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"211,560,347,700\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"211,560,347,700\" href=\"#global_class_RTTI_Toegangstatus\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"441,469,564,698\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"441,469,564,698\" href=\"#global_class_RTTI_Emmisieklasse\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"439,293,660,450\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"439,293,660,450\" href=\"#global_class_RTTI_TypeGereglementeerdeVerkeerszone\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"19,421,208,543\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"19,421,208,543\" href=\"#global_class_RTTI_TypeHeffingsregeling\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"60,254,209,411\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"60,254,209,411\" href=\"#global_class_RTTI_TypeWegbeheerder\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"582,458,705,579\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"582,458,705,579\" href=\"#global_class_RTTI_TypeAfsluiting\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"541,981,664,1103\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"541,981,664,1103\" href=\"#global_class_RTTI_Sluitingstype\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"1002,981,1125,1112\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"1002,981,1125,1112\" href=\"#global_class_RTTI_Duurtype\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"708,754,966,955\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"708,754,966,955\" href=\"#global_class_RTTI_TypeWegwerkzaamheid\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"1002,754,1208,876\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"1002,754,1208,876\" href=\"#global_class_RTTI_PlanningstypeWegwerkzaamheden\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"267,547,390,678\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"267,547,390,678\" href=\"#global_class_RTTI_Duurtype\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"7,1013,265,1602\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"7,1013,265,1602\" href=\"#global_class_RTTI_TypeWegwerkzaamheid\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"267,705,473,827\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"267,705,473,827\" href=\"#global_class_RTTI_PlanningstypeWegwerkzaamheden\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"178,234,436,823\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"178,234,436,823\" href=\"#global_class_RTTI_TypeWegwerkzaamheid\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"224,562,347,693\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"224,562,347,693\" href=\"#global_class_RTTI_Duurtype\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"224,720,431,842\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"224,720,431,842\" href=\"#global_class_RTTI_PlanningstypeWegwerkzaamheden\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"103,990,297,1200\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"103,990,297,1200\" href=\"#global_class_MMTIS_TypeApparaat\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"291,577,485,787\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"291,577,485,787\" href=\"#global_class_MMTIS_TypeApparaat\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"254,245,455,526\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"254,245,455,526\" href=\"#global_class_MMTIS_TypeLocatieVanBelang\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          ".imageinfo.overview > map > area[coords=\"14,14,294,260\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"14,14,294,260\" href=\"#global_class_SRTI_Typegebeurtenisoftoestand\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"48,72,328,318\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"48,72,328,318\" href=\"#global_class_SRTI_Typegebeurtenisoftoestand\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "#global_class_SRTI_Gebeurtenisoftoestand > section > .imageinfo > map > area[coords=\"14,14,294,260\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"14,14,294,260\" href=\"#global_class_SRTI_Typegebeurtenisoftoestand\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(2) > .imageinfo.overview > map > area[coords=\"633,226,981,454\"][href=\"#global_class_NWB_FRCcodering\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"633,226,981,454\" href=\"#global_class_NWB_FRCcodering\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(2) > .imageinfo.overview > map > area[coords=\"14,994,359,1399\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"14,994,359,1399\" href=\"#global_class_NWB_Geometriebroncode\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"1349,1003,1472,1143\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"1349,1003,1472,1143\" href=\"#global_class_NWB_Routeletter\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(2) > .imageinfo.overview > map > area[coords=\"949,1005,1100,1162\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"949,1005,1100,1162\" href=\"#global_class_NWB_WegtypeCodering\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(2) > .imageinfo.overview > map > area[coords=\"947,21,1070,160\"][href$=\"#global_class_NWB_Positie\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"947,21,1070,160\" href=\"#global_class_NWB_Positie\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(2) > .imageinfo.overview > map > area[coords=\"894,746,1107,921\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"894,746,1107,921\" href=\"#global_class_NWB_Huisnummerstructuur\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(2) > .imageinfo.overview > map > area[coords=\"805,21,928,178\"][href=\"#global_class_NWB_Rijrichting\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"805,21,928,178\" href=\"#global_class_NWB_Rijrichting\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(2) > .imageinfo.overview > map > area[coords=\"1132,22,1436,921\"][href=\"#global_class_NWB_Baansubsoort\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"1132,22,1436,921\" href=\"#global_class_NWB_Baansubsoort\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(2) > .imageinfo.overview > map > area[coords=\"604,590,727,712\"][href$=\"#global_class_NWB_Zijde\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"604,590,727,712\" href=\"#global_class_NWB_Zijde\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(2) > .imageinfo.overview > map > area[coords=\"633,21,783,195\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"633,21,783,195\" href=\"#global_class_NWB_Wegbeheerdersoortcode\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(3) > .imageinfo.overview > map > area[coords=\"633,226,981,454\"][href=\"#global_class_NWB_FRCcodering\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"633,226,981,454\" href=\"#global_class_NWB_FRCcodering\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(3) > .imageinfo.overview > map > area[coords=\"14,994,359,1399\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"14,994,359,1399\" href=\"#global_class_NWB_Geometriebroncode\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"1297,1003,1420,1143\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"1297,1003,1420,1143\" href=\"#global_class_NWB_Routeletter\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(3) > .imageinfo.overview > map > area[coords=\"949,1005,1100,1162\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"949,1005,1100,1162\" href=\"#global_class_NWB_WegtypeCodering\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(3) > .imageinfo.overview > map > area[coords=\"947,21,1070,160\"][href$=\"#global_class_NWB_Positie\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"947,21,1070,160\" href=\"#global_class_NWB_Positie\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(3) > .imageinfo.overview > map > area[coords=\"894,746,1107,921\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"894,746,1107,921\" href=\"#global_class_NWB_Huisnummerstructuur\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(3) > .imageinfo.overview > map > area[coords=\"805,21,928,178\"][href=\"#global_class_NWB_Rijrichting\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"805,21,928,178\" href=\"#global_class_NWB_Rijrichting\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(3) > .imageinfo.overview > map > area[coords=\"1132,22,1436,921\"][href=\"#global_class_NWB_Baansubsoort\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"1132,22,1436,921\" href=\"#global_class_NWB_Baansubsoort\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(3) > .imageinfo.overview > map > area[coords=\"604,590,727,712\"][href$=\"#global_class_NWB_Zijde\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"604,590,727,712\" href=\"#global_class_NWB_Zijde\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(3) > .imageinfo.overview > map > area[coords=\"633,21,783,195\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"633,21,783,195\" href=\"#global_class_NWB_Wegbeheerdersoortcode\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "area[coords=\"64,525,265,682\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"64,525,265,682\" href=\"#global_class_WNR_Rijrichting\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(2) > .imageinfo > map > area[coords=\"14,191,180,544\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"14,191,180,544\" href=\"#global_class_WKD_MaximumSnelheid\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      },
+      {
+        "target": [
+          "section:nth-child(3) > .imageinfo > map > area[coords=\"14,191,180,544\"][alt=\"\"]"
+        ],
+        "html": "<area shape=\"rect\" alt=\"\" coords=\"14,191,180,544\" href=\"#global_class_WKD_MaximumSnelheid\">",
+        "failureSummary": "Fix any of the following:\n  Element has an empty alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      }
+    ]
+  },
+  {
+    "url": "http://localhost:8080/snapshot.html",
     "id": "color-contrast",
     "impact": "serious",
     "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
@@ -12,6 +518,1093 @@
         ],
         "html": "<div class=\"sidelabel\">Geonovum Handreiking - Werkversie</div>",
         "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ffffff, background color: #ff0000, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+      }
+    ]
+  },
+  {
+    "url": "http://localhost:8080/snapshot.html",
+    "id": "target-size",
+    "impact": "serious",
+    "description": "Ensure touch targets have sufficient size and space",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/target-size?application=webdriverjs",
+    "nodes": [
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Uitzonderlijkeweersomstandigheden\"><bdi class=\"secno\">2.1.7.1.1 </bdi>   Uitzonderlijke weersomstandigheden</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Verkeerscirculatieplannen\"><bdi class=\"secno\">2.1.7.1.2 </bdi>   Verkeerscirculatieplannen</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Regelsvoorhetleverenvangoederen\"><bdi class=\"secno\">2.1.7.1.3 </bdi>   Regels voor het leveren van goederen</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Sluitingenvanrijstroken\"><bdi class=\"secno\">2.1.7.1.5 </bdi>   Sluitingen van rijstroken</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Eenrichtingsstraten\"><bdi class=\"secno\">2.1.7.1.6 </bdi>   Eenrichtingsstraten</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Inhaalverbodenvoorvrachtwagens\"><bdi class=\"secno\">2.1.7.1.7 </bdi>   Inhaalverboden voor vrachtwagens</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Verminderdezichtbaarheid\"><bdi class=\"secno\">2.1.7.1.8 </bdi>   Verminderde zichtbaarheid</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(9) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Kortstondigewegwerkzaamheden\"><bdi class=\"secno\">2.1.7.1.9 </bdi>   Kortstondige wegwerkzaamheden</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Dierenmensenobstakelsenpuinopdeweg\"><bdi class=\"secno\">2.1.7.1.10 </bdi>   Dieren, mensen, obstakels en puin op de weg</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(11) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Wegwerkzaamheden\"><bdi class=\"secno\">2.1.7.1.11 </bdi>   Wegwerkzaamheden</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(12) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Informatieoverdeveiligheidenuitrustingvanhetparkeerterrein\"><bdi class=\"secno\">2.1.7.1.12 </bdi>   Informatie over de veiligheid en uitrusting van het parkeerterrein</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(13) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Onbeheerdewegblokkade\"><bdi class=\"secno\">2.1.7.1.13 </bdi>   Onbeheerde wegblokkade</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(14) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Richtingoprijstrokenmetomkeerbarerijrichting\"><bdi class=\"secno\">2.1.7.1.14 </bdi>   Richting op rijstroken met omkeerbare rijrichting</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(15) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Statischegegevensmetbetrekkingtothetparkeerterrein\"><bdi class=\"secno\">2.1.7.1.15 </bdi>   Statische gegevens met betrekking tot het parkeerterrein</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(16) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Onbeveiligdeongevalslocatie\"><bdi class=\"secno\">2.1.7.1.16 </bdi>   Onbeveiligde ongevalslocatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(17) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Toegangsvoorwaardevoortunnels\"><bdi class=\"secno\">2.1.7.1.17 </bdi>   Toegangsvoorwaarde voor tunnels</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(18) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Permanentetoegangsbeperkingen\"><bdi class=\"secno\">2.1.7.1.18 </bdi>   Permanente toegangsbeperkingen</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(19) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Tijdelijkgladwegdek\"><bdi class=\"secno\">2.1.7.1.19 </bdi>   Tijdelijk glad wegdek</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(20) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Spookrijder\"><bdi class=\"secno\">2.1.7.1.20 </bdi>   Spookrijder</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(22) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Tijdelijkeverkeersbeheersmaatregelen\"><bdi class=\"secno\">2.1.7.1.22 </bdi>   Tijdelijke verkeersbeheersmaatregelen</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(23) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Toegangsvoorwaardenvoorbruggen\"><bdi class=\"secno\">2.1.7.1.23 </bdi>   Toegangsvoorwaarden voor bruggen</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(24) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Snelheidsbeperkingen\"><bdi class=\"secno\">2.1.7.1.24 </bdi>   Snelheidsbeperkingen</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(26) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Sluitingenvanwegen\"><bdi class=\"secno\">2.1.7.1.26 </bdi>   Sluitingen van wegen</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(7) > ol > li > ol > li:nth-child(27) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_ITSgegevenstypenoverzicht_Beperkingenopbasisvangewichtlengtebreedtehoogte\"><bdi class=\"secno\">2.1.7.1.27 </bdi>   Beperkingen op basis van gewicht/lengte/breedte/hoogte</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(1) > ol > li:nth-child(1) > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_9DAE9036_252C_4e1e_A4F4_73E853ABF9AD\"><bdi class=\"secno\">2.2.1.1.1 </bdi>   RTTI 2. De cruciale soorten gegevens over verkeersregelingen en -beperkingen - overzicht</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(1) > ol > li:nth-child(1) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_05AE8D40_DD89_4937_A7D6_3059B8B5D175\"><bdi class=\"secno\">2.2.1.1.2 </bdi>   RTTI 1. De soorten infrastructuurgegevens                                                               - overzicht</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(1) > ol > li:nth-child(1) > ol > li:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_98871CC8_D357_4109_B97E_5E892D9FE9F8\"><bdi class=\"secno\">2.2.1.1.3 </bdi>   RTTI 3. Overige soorten gegevens over verkeersregelingen en -beperkingen        - overzicht</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(1) > ol > li:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_6F9B3EB8_46AF_44eb_9E41_F26B9268214B\"><bdi class=\"secno\">2.2.1.1.4 </bdi>   RTTI 6. De soorten gegevens over het gebruik van het netwerk in realtime            - overzicht</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(1) > ol > li:nth-child(2) > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_0EDE1C47_4F86_4c42_AAB2_FE06FA7C4883\"><bdi class=\"secno\">2.2.1.2.1 </bdi>   RTTI 4. De cruciale soorten gegevens over de toestand van het netwerk - overzicht</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(2) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_E2E17371_909B_47d3_A30B_D524808F26CC\"><bdi class=\"secno\">2.2.1.2.2 </bdi>   RTTI 5. Andere soorten gegevens over de toestand van het netwerk - overzicht</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(24) > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_9158D7D6_A536_4531_BD41_7DAD8363E7E3\"><bdi class=\"secno\">2.2.1.24.1 </bdi>   Snelheidsbeperking «traces» - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(24) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_AAF0E5E5_6B15_4761_87C9_44F5DE7ED1E8\"><bdi class=\"secno\">2.2.1.24.2 </bdi>   Snelheidsbeperking - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(42) > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_0A3CD6F5_49A1_40f9_9223_D2C5E5E54D5B\"><bdi class=\"secno\">2.2.1.42.1 </bdi>   Wegwerkzaamheid zonder «traces» - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(42) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_0C34D435_251A_4f0a_8450_7F1FEFF29643\"><bdi class=\"secno\">2.2.1.42.2 </bdi>   Wegwerkzaamheden met «traces» - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(42) > ol > li:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_4A7C8236_152A_45c1_AF96_4F2E1B353D8E\"><bdi class=\"secno\">2.2.1.42.3 </bdi>   Type­Wegwerkzaamheid met «traces» - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(42) > ol > li:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_B33545BE_14FE_48f5_8212_EBB5749642BB\"><bdi class=\"secno\">2.2.1.42.4 </bdi>   Wegwerkzaamheden zoomin op gegevenstypen met «traces» - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_RTTIDynamischenstatischeverkeersregels\"><bdi class=\"secno\">2.2.7.1.1 </bdi>   RTTI: Dynamisch en statische verkeersregels</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_RTTISoortengegevensoverdestaatvanhetnetwerk\"><bdi class=\"secno\">2.2.7.1.2 </bdi>   RTTI: Soorten gegevens over de staat van het netwerk</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_Weglink\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Weglink\"><bdi class=\"secno\">2.2.7.1.3 </bdi>   Weglink</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Verzorgingsplaats\"><bdi class=\"secno\">2.2.7.1.4 </bdi>   Verzorgingsplaats</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_Wegknoop\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Wegknoop\"><bdi class=\"secno\">2.2.7.1.5 </bdi>   Wegknoop</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_Tolstation\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Tolstation\"><bdi class=\"secno\">2.2.7.1.6 </bdi>   Tolstation</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Voertuigenergiestation\"><bdi class=\"secno\">2.2.7.1.7 </bdi>   Voertuigenergiestation</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_Laadstation\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Laadstation\"><bdi class=\"secno\">2.2.7.1.8 </bdi>   Laadstation</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_Tankstation\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Tankstation\"><bdi class=\"secno\">2.2.7.1.9 </bdi>   Tankstation</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Gastankstation\"><bdi class=\"secno\">2.2.7.1.10 </bdi>   Gastankstation</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(11) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Brandstoftankstation\"><bdi class=\"secno\">2.2.7.1.11 </bdi>   Brandstoftankstation</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_Vulpunt\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Vulpunt\"><bdi class=\"secno\">2.2.7.1.12 </bdi>   Vulpunt</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(13) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Brandstofvulpunt\"><bdi class=\"secno\">2.2.7.1.13 </bdi>   Brandstofvulpunt</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_Gasvulpunt\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Gasvulpunt\"><bdi class=\"secno\">2.2.7.1.14 </bdi>   Gasvulpunt</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_Laadpunt\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Laadpunt\"><bdi class=\"secno\">2.2.7.1.15 </bdi>   Laadpunt</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(16) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Verkeersregelingofbeperking\"><bdi class=\"secno\">2.2.7.1.16 </bdi>   Verkeersregeling of -beperking</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(17) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Toegangsvoorwaarden\"><bdi class=\"secno\">2.2.7.1.17 </bdi>   Toegangsvoorwaarden</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(18) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Toegangsvoorwaardentunnel\"><bdi class=\"secno\">2.2.7.1.18 </bdi>   Toegangsvoorwaarden tunnel</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(19) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Toegangsvoorwaardenbrug\"><bdi class=\"secno\">2.2.7.1.19 </bdi>   Toegangsvoorwaarden brug</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(20) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Geografischelocatie\"><bdi class=\"secno\">2.2.7.1.20 </bdi>   Geografische locatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(21) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Permanentetoegangsbeperking\"><bdi class=\"secno\">2.2.7.1.21 </bdi>   Permanente toegangsbeperking</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(22) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Snelheidsbeperking\"><bdi class=\"secno\">2.2.7.1.22 </bdi>   Snelheidsbeperking</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(23) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Goederenafleveringsregeling\"><bdi class=\"secno\">2.2.7.1.23 </bdi>   Goederenafleveringsregeling</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(24) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Beperkingenvoertuigkenmerken\"><bdi class=\"secno\">2.2.7.1.24 </bdi>   Beperkingen voertuigkenmerken</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(25) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Gereglementeerdeverkeerszone\"><bdi class=\"secno\">2.2.7.1.25 </bdi>   Gereglementeerde verkeerszone</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(26) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Verkeerscirculatieplan\"><bdi class=\"secno\">2.2.7.1.26 </bdi>   Verkeerscirculatieplan</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(27) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Verkeersbord\"><bdi class=\"secno\">2.2.7.1.27 </bdi>   Verkeersbord</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(28) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Heffingsregeling\"><bdi class=\"secno\">2.2.7.1.28 </bdi>   Heffingsregeling</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_Ontheffing\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Ontheffing\"><bdi class=\"secno\">2.2.7.1.29 </bdi>   Ontheffing</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(30) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Tijdelijkeverkeersbeheersmaatregel\"><bdi class=\"secno\">2.2.7.1.30 </bdi>   Tijdelijke verkeersbeheersmaatregel</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_Afsluiting\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Afsluiting\"><bdi class=\"secno\">2.2.7.1.31 </bdi>   Afsluiting</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(32) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Wegafsluiting\"><bdi class=\"secno\">2.2.7.1.32 </bdi>   Wegafsluiting</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(33) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Rijbaanafsluiting\"><bdi class=\"secno\">2.2.7.1.33 </bdi>   Rijbaanafsluiting</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(34) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Rijstrookafsluiting\"><bdi class=\"secno\">2.2.7.1.34 </bdi>   Rijstrookafsluiting</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(7) > ol > li:nth-child(1) > ol > li:nth-child(35) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Wegwerkzaamheid\"><bdi class=\"secno\">2.2.7.1.35 </bdi>   Wegwerkzaamheid</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(2) > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Wegclassificatie\"><bdi class=\"secno\">2.2.7.2.1 </bdi>Gegevensgroeptype   Wegclassificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(2) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Openingstijd\"><bdi class=\"secno\">2.2.7.2.2 </bdi>Gegevensgroeptype   Openingstijd</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(2) > ol > li:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Geldigheidsperiode\"><bdi class=\"secno\">2.2.7.2.3 </bdi>Gegevensgroeptype   Geldigheidsperiode</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(2) > ol > li:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_JuridischeGrondslag\"><bdi class=\"secno\">2.2.7.2.4 </bdi>Gegevensgroeptype   Juridische­Grondslag</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_Tijdvenster\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Tijdvenster\"><bdi class=\"secno\">2.2.7.2.5 </bdi>Gegevensgroeptype   Tijdvenster</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_Vestiger\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Vestiger\"><bdi class=\"secno\">2.2.7.2.6 </bdi>Gegevensgroeptype   Vestiger</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_Snelheid\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Snelheid\"><bdi class=\"secno\">2.2.7.2.7 </bdi>Gegevensgroeptype   Snelheid</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href$=\"#detail_class_RTTI_Tarief\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Tarief\"><bdi class=\"secno\">2.2.7.2.8 </bdi>Gegevensgroeptype   Tarief</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_Periode\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Periode\"><bdi class=\"secno\">2.2.7.2.9 </bdi>Gegevensgroeptype   Periode</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(7) > ol > li:nth-child(2) > ol > li:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_Wegbeheerder\"><bdi class=\"secno\">2.2.7.2.10 </bdi>Gegevensgroeptype   Wegbeheerder</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(2) > ol > li:nth-child(7) > ol > li:nth-child(3) > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_KeuzeWegvakOfWegverbinding\"><bdi class=\"secno\">2.2.7.3.1 </bdi>Keuze   Keuze­Wegvak­Of­Wegverbinding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(7) > ol > li:nth-child(3) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_KeuzeJunctieOfWegknoop\"><bdi class=\"secno\">2.2.7.3.2 </bdi>Keuze   Keuze­Junctie­Of­Wegknoop</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_PuntOfVlak\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_PuntOfVlak\"><bdi class=\"secno\">2.2.7.3.3 </bdi>Keuze   Punt­Of­Vlak</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(7) > ol > li:nth-child(3) > ol > li:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_WeglinkOfGeografischeLocatie\"><bdi class=\"secno\">2.2.7.3.4 </bdi>Keuze   Weglink­Of­Geografische­Locatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_PuntOfLRS\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_PuntOfLRS\"><bdi class=\"secno\">2.2.7.3.5 </bdi>Keuze   Punt­Of­LRS</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_RTTI_PuntOfLijn\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_RTTI_PuntOfLijn\"><bdi class=\"secno\">2.2.7.3.6 </bdi>Keuze   Punt­Of­Lijn</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(3) > ol > li:nth-child(1) > ol > li:nth-child(1) > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_C8502110_A9E0_42ef_89D4_DE46088F3C0B\"><bdi class=\"secno\">2.3.1.1.1 </bdi>   MMTIS - overzicht</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(3) > ol > li:nth-child(1) > ol > li:nth-child(1) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_158D8195_243E_42a9_8A4E_69C70122C93F\"><bdi class=\"secno\">2.3.1.1.2 </bdi>   MMTIS met attributen - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(3) > ol > li:nth-child(1) > ol > li:nth-child(1) > ol > li:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_A904A01C_7137_441e_83BA_41AA90A05C35\"><bdi class=\"secno\">2.3.1.1.3 </bdi>   MMTIS - Datakwaliteit - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(3) > ol > li:nth-child(1) > ol > li:nth-child(4) > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_C2AE70FD_15B3_49c9_B64B_0CD002416738\"><bdi class=\"secno\">2.3.1.4.1 </bdi>   Halteplaats - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(4) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_53E02482_D21E_4606_B448_033875280D89\"><bdi class=\"secno\">2.3.1.4.2 </bdi>   Halteplaats «traces» - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(3) > ol > li:nth-child(1) > ol > li:nth-child(5) > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_03E53F4D_53A4_4ebe_91FC_5D3F302C14D5\"><bdi class=\"secno\">2.3.1.5.1 </bdi>   Gepland stoppunt - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(1) > ol > li:nth-child(5) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_F557DDE0_FE79_4764_B8CD_C1C280B50B87\"><bdi class=\"secno\">2.3.1.5.2 </bdi>   Gepland stoppunt «traces» - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(3) > ol > li:nth-child(1) > ol > li:nth-child(19) > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_C909D1D0_9953_4dc8_BFEF_7E4B8956D3C6\"><bdi class=\"secno\">2.3.1.19.1 </bdi>   Plaats «traces»- detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(19) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_D653CE18_17E0_4747_AD06_376CF0F57840\"><bdi class=\"secno\">2.3.1.19.2 </bdi>   Plaats - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(3) > ol > li:nth-child(4) > ol > li:nth-child(1) > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_MMTIS_MMTISmultimodalereisinformatie\"><bdi class=\"secno\">2.3.4.1.1 </bdi>   MMTIS (multimodale reisinformatie)</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(3) > ol > li:nth-child(4) > ol > li:nth-child(1) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_MMTIS_Apparaatpositie\"><bdi class=\"secno\">2.3.4.1.2 </bdi>   Apparaatpositie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(3) > ol > li:nth-child(4) > ol > li:nth-child(1) > ol > li:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_MMTIS_Toegangspunt\"><bdi class=\"secno\">2.3.4.1.3 </bdi>   Toegangspunt</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(3) > ol > li:nth-child(4) > ol > li:nth-child(1) > ol > li:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_MMTIS_Halteplaatshaltecluster\"><bdi class=\"secno\">2.3.4.1.4 </bdi>   Halteplaats/haltecluster?</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_MMTIS_Doorgang\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_MMTIS_Doorgang\"><bdi class=\"secno\">2.3.4.1.5 </bdi>   Doorgang</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_MMTIS_Ingang\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_MMTIS_Ingang\"><bdi class=\"secno\">2.3.4.1.6 </bdi>   Ingang</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_MMTIS_Perron\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_MMTIS_Perron\"><bdi class=\"secno\">2.3.4.1.7 </bdi>   Perron?</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(4) > ol > li:nth-child(1) > ol > li:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_MMTIS_Apparatuurplaats\"><bdi class=\"secno\">2.3.4.1.8 </bdi>   Apparatuurplaats</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_MMTIS_Apparaat\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_MMTIS_Apparaat\"><bdi class=\"secno\">2.3.4.1.9 </bdi>   Apparaat</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(4) > ol > li:nth-child(1) > ol > li:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_MMTIS_Instappositie\"><bdi class=\"secno\">2.3.4.1.10 </bdi>   Instappositie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(4) > ol > li:nth-child(1) > ol > li:nth-child(11) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_MMTIS_Routeknooppunt\"><bdi class=\"secno\">2.3.4.1.11 </bdi>   Routeknooppunt</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(4) > ol > li:nth-child(1) > ol > li:nth-child(12) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_MMTIS_Routeverbinding\"><bdi class=\"secno\">2.3.4.1.12 </bdi>   Routeverbinding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_MMTIS_Locatie\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_MMTIS_Locatie\"><bdi class=\"secno\">2.3.4.1.13 </bdi>   Locatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(4) > ol > li:nth-child(1) > ol > li:nth-child(14) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_MMTIS_LocatievanBelang\"><bdi class=\"secno\">2.3.4.1.14 </bdi>   Locatie van Belang</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_MMTIS_Wegadres\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_MMTIS_Wegadres\"><bdi class=\"secno\">2.3.4.1.15 </bdi>   Wegadres</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_MMTIS_Postadres\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_MMTIS_Postadres\"><bdi class=\"secno\">2.3.4.1.16 </bdi>   Postadres</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(4) > ol > li:nth-child(1) > ol > li:nth-child(1) > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_93837447_A27F_415c_A324_E4DEB3FF8CCA\"><bdi class=\"secno\">2.4.1.1.1 </bdi>   SRTI - overzicht</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(4) > ol > li:nth-child(1) > ol > li:nth-child(1) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_F2FBC555_A9FD_4bc5_9B1B_1984EDDB344B\"><bdi class=\"secno\">2.4.1.1.2 </bdi>   SRTI «traces» - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(4) > ol > li:nth-child(4) > ol > li:nth-child(4) > ol > li:nth-child(1) > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_SRTI_SRTIverkeersveiligheidsinformatie\"><bdi class=\"secno\">2.4.4.1.1 </bdi>   SRTI (verkeersveiligheidsinformatie)</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(4) > ol > li:nth-child(4) > ol > li:nth-child(4) > ol > li:nth-child(1) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_SRTI_Gebeurtenisoftoestand\"><bdi class=\"secno\">2.4.4.1.2 </bdi>   Gebeurtenis of toestand</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_SRTI_Puntlocatie\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_SRTI_Puntlocatie\"><bdi class=\"secno\">2.4.4.1.3 </bdi>   Puntlocatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(6) > ol > li:nth-child(2) > ol > li > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_Datakwaliteit_Correctheid\"><bdi class=\"secno\">2.6.2.1.1 </bdi>   Correctheid</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(6) > ol > li:nth-child(2) > ol > li > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_Datakwaliteit_Tijdigheid\"><bdi class=\"secno\">2.6.2.1.2 </bdi>   Tijdigheid</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(6) > ol > li:nth-child(2) > ol > li > ol > li:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_Datakwaliteit_Compleetheid\"><bdi class=\"secno\">2.6.2.1.3 </bdi>   Compleetheid</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(6) > ol > li:nth-child(2) > ol > li > ol > li:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_Datakwaliteit_SRTIDatakwaliteitscriteria\"><bdi class=\"secno\">2.6.2.1.4 </bdi>   SRTI - Datakwaliteitscriteria</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(6) > ol > li:nth-child(2) > ol > li > ol > li:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_Datakwaliteit_BetrouwbaarheidGebruiksvriendelijkheid\"><bdi class=\"secno\">2.6.2.1.5 </bdi>   Betrouwbaarheid &amp; Gebruiksvriendelijkheid</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(6) > ol > li:nth-child(2) > ol > li > ol > li:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_Datakwaliteit_RTTIDatakwaliteitscriteria\"><bdi class=\"secno\">2.6.2.1.6 </bdi>   RTTI - Datakwaliteitscriteria</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(7) > ol > li:nth-child(3) > ol > li > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_Governance_Gegevenstype\"><bdi class=\"secno\">2.7.3.1.1 </bdi>   Gegevenstype</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(7) > ol > li:nth-child(3) > ol > li > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_Governance_Gebruikersdoel\"><bdi class=\"secno\">2.7.3.1.2 </bdi>   Gebruikersdoel</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href$=\"#detail_class_NWB_Afstand\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_NWB_Afstand\"><bdi class=\"secno\">2.9.6.2.1 </bdi>Gegevensgroeptype   Afstand</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(6) > ol > li:nth-child(2) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_NWB_Baansoortgegevens\"><bdi class=\"secno\">2.9.6.2.2 </bdi>Gegevensgroeptype   Baansoortgegevens</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_NWB_DatumWegvak\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_NWB_DatumWegvak\"><bdi class=\"secno\">2.9.6.2.3 </bdi>Gegevensgroeptype   Datum­Wegvak</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_NWB_Gemeente\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_NWB_Gemeente\"><bdi class=\"secno\">2.9.6.2.4 </bdi>Gegevensgroeptype   Gemeente</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(6) > ol > li:nth-child(2) > ol > li:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_NWB_Geometriebron\"><bdi class=\"secno\">2.9.6.2.5 </bdi>Gegevensgroeptype   Geometriebron</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(6) > ol > li:nth-child(2) > ol > li:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_NWB_Hectometrering\"><bdi class=\"secno\">2.9.6.2.6 </bdi>Gegevensgroeptype   Hectometrering</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_NWB_Huisnummers\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_NWB_Huisnummers\"><bdi class=\"secno\">2.9.6.2.7 </bdi>Gegevensgroeptype   Huisnummers</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href$=\"#detail_class_NWB_Route\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_NWB_Route\"><bdi class=\"secno\">2.9.6.2.8 </bdi>Gegevensgroeptype   Route</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_NWB_Straatnaam\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_NWB_Straatnaam\"><bdi class=\"secno\">2.9.6.2.9 </bdi>Gegevensgroeptype   Straatnaam</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_NWB_Wegbeheerder\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_NWB_Wegbeheerder\"><bdi class=\"secno\">2.9.6.2.10 </bdi>Gegevensgroeptype   Wegbeheerder</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(6) > ol > li:nth-child(2) > ol > li:nth-child(11) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_NWB_Wegtypecodering\"><bdi class=\"secno\">2.9.6.2.11 </bdi>Gegevensgroeptype   Wegtype codering</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(10) > ol > li:nth-child(5) > ol > li > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_WNR_Wegverkeerruimteverbinding\"><bdi class=\"secno\">2.10.5.1.1 </bdi>   Wegverkeerruimteverbinding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(10) > ol > li:nth-child(5) > ol > li > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_WNR_Wegverbinding\"><bdi class=\"secno\">2.10.5.1.2 </bdi>   Wegverbinding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_WNR_Wegknoop\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_WNR_Wegknoop\"><bdi class=\"secno\">2.10.5.1.3 </bdi>   Wegknoop</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(10) > ol > li:nth-child(5) > ol > li > ol > li:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_WNR_Baanverbinding\"><bdi class=\"secno\">2.10.5.1.4 </bdi>   Baanverbinding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(10) > ol > li:nth-child(5) > ol > li > ol > li:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_WNR_Strookverbinding\"><bdi class=\"secno\">2.10.5.1.5 </bdi>   Strookverbinding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_WNR_Verbinding\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_WNR_Verbinding\"><bdi class=\"secno\">2.10.5.1.6 </bdi>   Verbinding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href$=\"#detail_class_WNR_Knoop\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_WNR_Knoop\"><bdi class=\"secno\">2.10.5.1.7 </bdi>   Knoop</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(10) > ol > li:nth-child(5) > ol > li > ol > li:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_WNR_Netwerkelement\"><bdi class=\"secno\">2.10.5.1.8 </bdi>   Netwerkelement</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(10) > ol > li:nth-child(5) > ol > li > ol > li:nth-child(9) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_WNR_Transportruimte\"><bdi class=\"secno\">2.10.5.1.9 </bdi>   Transportruimte</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(10) > ol > li:nth-child(5) > ol > li > ol > li:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_WNR_FunctioneleRuimte\"><bdi class=\"secno\">2.10.5.1.10 </bdi>   Functionele­Ruimte</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_WNR_ReeelObject\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_WNR_ReeelObject\"><bdi class=\"secno\">2.10.5.1.11 </bdi>   Reeel­Object</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(10) > ol > li:nth-child(5) > ol > li > ol > li:nth-child(12) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_WNR_Openbareruimte\"><bdi class=\"secno\">2.10.5.1.12 </bdi>   Openbare ruimte</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(11) > ol > li:nth-child(2) > ol > li:nth-child(2) > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_7AFDFDDB_D573_4ec2_9508_60CDCD6E0E86\"><bdi class=\"secno\">2.11.2.2.1 </bdi>   Maximum snelheden conceptuele namen - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(11) > ol > li:nth-child(2) > ol > li:nth-child(2) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_E3D79E04_B493_46c8_B9CE_0004DD5937EF\"><bdi class=\"secno\">2.11.2.2.2 </bdi>   Maximum snelheden technische namen - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(11) > ol > li:nth-child(2) > ol > li:nth-child(3) > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_87DBC32F_35BC_4dc3_9176_97ECD27A6933\"><bdi class=\"secno\">2.11.2.3.1 </bdi>   Wegbreedte conceptuele namen - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(11) > ol > li:nth-child(2) > ol > li:nth-child(3) > ol > li:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#EAID_B0AB4731_4A03_42d6_A6BB_2F77B202EB13\"><bdi class=\"secno\">2.11.2.3.2 </bdi>   Wegbreedte technische namen - detail</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          "li:nth-child(11) > ol > li:nth-child(4) > ol > li > ol > li:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_WKD_Maximumsnelheden\"><bdi class=\"secno\">2.11.4.1.1 </bdi>   Maximum snelheden</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_WKD_Wegbreedte\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_WKD_Wegbreedte\"><bdi class=\"secno\">2.11.4.1.2 </bdi>   Wegbreedte</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
       }
     ]
   }
