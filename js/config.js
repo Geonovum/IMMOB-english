@@ -3,13 +3,14 @@ let respecConfig = {
   useLabel: true,
 
   // TODO: title is verplicht! Neem hieronder de titel van het document op
-  title: "Geonovum template voor ReSpec",
+    title: "Conceptual Schema Mobility (IMMOB)",
+  subtitle: "English version of IMMOB",
   //-- specStatus is verplicht! (activeer 1 van de volgende)
-  // specStatus: "wv",                 // Werkversie
+  specStatus: "wv",                 // Werkversie
   //specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
-  specStatus: "basis",            // Basis Document
+  //specStatus: "basis",            // Basis Document
 
   //-- specType is verplicht bij alle andere dan BASIS
   //specType: "NO",                 // Norm
@@ -68,8 +69,13 @@ let respecConfig = {
   //-- vul in: per auteur: name:, company:, companyURL: 
   authors:
     [
+	  {
+        name: "Mats Braster",
+        company: "Geonovum",
+        companyURL: "https://www.geonovum.nl",
+      },
       {
-        name: "voornaam achternaam",
+        name: "Paul Janssen",
         company: "Geonovum",
         companyURL: "https://www.geonovum.nl",
       }
@@ -78,7 +84,7 @@ let respecConfig = {
   // TODO: Vul de github URL in.
   // neem hier de URL van de github repository op waar het respec document in staat
   // dit zorgt voor het 'Doe mee:' onderdeel in het voorblad van de publicatie.
-  github: "https://github.com/Geonovum/NL-ReSpec-template",
+   github: "https://github.com/Geonovum/IMMOB-english",
 
   // Create PDF and link to file in header (optional):
   // TODO: Change the filename as preferred.
@@ -105,6 +111,22 @@ let respecConfig = {
       status: "Definitief",
       publisher: "Geonovum",
       date: "2024-06-13"
-    }
-  }
+    },
+	"NORA-RGK": {
+	  id: "NORA-RGK",
+      title: "Raamwerk gegevenskwaliteit",
+      href: "https://www.noraonline.nl/wiki/Raamwerk_gegevenskwaliteit",
+      status: "",
+      publisher: "NORA",
+      date: ""
+	},
+	"NL-SBB": {
+	  id: "NL-SBB",
+      title: "NL-SBB - Standaard voor het beschrijven van begrippen",
+      href: "https://docs.geostandaarden.nl/nl-sbb/nl-sbb/",
+      status: "definitief",
+      publisher: "Geonovum",
+      date: ""
+	},
+   }
 };
